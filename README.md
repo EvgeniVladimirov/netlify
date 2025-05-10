@@ -36,7 +36,7 @@ xml2js - XML parsing library.
 faker - email string generator
 
 ## Note:
-On the first task for the invalid data in the newsletter form, I wasn't sure if I should play with the styles of the form in order to bring the error message up, because most of the times it wasn't working and wasn't displaying it. So I've skipped the test. I haven't received any response on my questions to aren.hovsepyan@bejamas.com
+On the first task for the invalid data in the newsletter form, I wasn't sure if I should play with the styles of the form in order to bring the error message up, because most of the times it wasn't working and wasn't displaying it. So I've skipped the test. I haven't received any response on my questions
 For the couple of times I've ran the test, only once it passed. The button doesn't trigger the wanted effect, so the test would be marked as flaky.
 
 On the second task - because I'm not quite sure with the testing on the sitemap, the tests are failing when checking the links are "accessible" or "robots noindex meta tags", because there are a lot of links and it timeouts. One way was to increase the timeout to 10 minutes in order to pass, but that is not a "best practise" way. The other was to create a test to take the sitemap.xml, to save the file somewhere in the project, and to divide it in couple of parts so that I can cover it with multiple tests. Also I'm not quite familiar with this "robots noindex meta tags", so most of my stuff written would have been with the help of Google and AI.
